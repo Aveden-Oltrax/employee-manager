@@ -17,6 +17,11 @@ The Spring Boot portion of the project focuses on the usage of Spring Data JPA, 
 
 The Angular portion of the project covers Angular components, Angular forms, Angular routing, and Angular services. It delves into Angular HTTP communication, showcasing how to interact with the Spring Boot API endpoints to perform CRUD (Create, Read, Update, Delete) operations on employee data.
 
+## Project Architecture
+The client-side utilizes the Angular framework to build the user interface and handle user interactions. Angular components are responsible for rendering the views and capturing user input. The Angular services handle the HTTP requests and communicate with the server-side API.
+
+The server-side is built using the Spring Boot framework. The controller layer receives the HTTP requests from the client and maps them to appropriate methods. The service layer contains the business logic and performs the necessary operations. It interacts with the MySQL database using Spring Data JPA for data persistence and retrieval.
+
 ## Technologies Used
 
 The project utilizes the following technologies:
