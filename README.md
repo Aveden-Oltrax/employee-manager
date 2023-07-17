@@ -19,8 +19,10 @@ The Angular portion of the project covers Angular components, Angular forms, Ang
 
 ## Project Architecture
 The client-side utilizes the Angular framework to build the user interface and handle user interactions. Angular components are responsible for rendering the views and capturing user input. The Angular services handle the HTTP requests and communicate with the server-side API.
+![Client Side Architecture](./img/Untitled1.png)
 
 The server-side is built using the Spring Boot framework. The controller layer receives the HTTP requests from the client and maps them to appropriate methods. The service layer contains the business logic and performs the necessary operations. It interacts with the MySQL database using Spring Data JPA for data persistence and retrieval.
+![Server Side Architecture](./img/Untitled2.png)
 
 ## Technologies Used
 
@@ -61,3 +63,8 @@ The Employee Manager service provides the following functionalities:
 The Angular frontend interacts with the Spring Boot backend to perform these operations.
 
 ## Screenshots
+![Screenshot 1](./img/1.png)
+![Screenshot 2](./img/2.png)
+![Screenshot 3](./img/3.png)
+![Screenshot 4](./img/4.png)
+![Screenshot 5](./img/5.png)
